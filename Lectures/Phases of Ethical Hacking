@@ -1,0 +1,81 @@
+	1. Reconnaissance
+	Reconnaissance is the first step in ethical hacking. It’s often referred to as footprinting. Here, a hacker tries collecting various kinds of data, such as employee information, IP addresses, network topology, and domain names, using active and passive approaches. 
+  The purpose is to create a diagram of the target’s digital and physical assets.
+	Active Reconnaissance: This method involves direct interaction with the target system, which may warn the target about possible scans.
+	Passive Reconnaissance: This implies collecting data without direct contact with the target, making it untraceable.
+		Popular Tools Used are:
+			§ Nmap
+			§ Whois
+			§ Maltego
+		Reconnaissance Techniques Commonly Used:
+			§ Google Dorking: Utilizing sophisticated search operators to find sensitive information online.
+			§ Whois Lookup: Collecting information on who owns the domain, IP addresses, etc.
+			§ Social Engineering: Manipulating people into revealing private information regarding targets; this can be done through phishing messages, for instance.
+			§ DNS Enumeration: To create a topology of the target’s infrastructure by finding all DNS entries linked with the domain name concerned.
+			§ Network Scanning: One can learn about active systems and running services using tools like Nmap.
+		
+		
+	2. Scanning
+	At that point, the hacker goes to the scanning stage after having enough information. Scanning recognizes open ports, active devices, and services in the targeted network. 
+  It also helps to identify areas of vulnerability that can be targeted. Scanning is usually divided into three categories:
+		○ Port Scanning: Finding open ports or services with Nmap or Angry IP Scanner.
+		○ Vulnerability Scanning: Detecting known weaknesses in systems and applications using Nessus.
+		○ Network Mapping: Creating a blueprint of network topology with tools such as SolarWinds.
+		Popular Tools Used:
+			§ Nessus
+			§ OpenVAS
+			§ Angry IP Scanner
+		Commonly used techniques for Scanning
+			§ Port Scanning: Using tools like Nmap or Angry IP Scanner to find open ports or services.
+			§ Vulnerability Scanning: Using tools like Nessus to detect known weaknesses in systems and applications.
+			§ Network Mapping: Generating a visual map that shows the network topology with applications like SolarWinds.
+			§ Banner Grabbing: This involves collecting software version information from open services to help determine any weaknesses.
+			§ Ping Sweeps: This entails sending ICMP requests to identify active hosts on a particular network.
+	
+
+	3. Gaining Access
+	During this crucial stage, the intruder utilizes the weaknesses identified during scanning for unauthorized entry into the target system. This may involve leveraging applications, operating systems, or network flaws. 
+  The objective is establishing access at different privilege levels, from user accounts to administrative control. Exploitation Methods comprise buffer overflows, SQL injection, and cross-site scripting (XSS).
+		Popular Tools Used:
+			§ Metasploit
+			§ SQLmap
+			§ Hydra
+		Commonly used techniques for Gaining Access:
+			§ Password Cracking: Using brute force and dictionary attacks or to crack passwords, rainbow tables are used.
+			§ Exploration of Vulnerabilities: Unauthorized access can be obtained by exploiting known vulnerabilities such as SQL Injection or buffer overflows.
+			§ Privilege Escalation: Higher-level privileges are acquired within a system through exploitation or misconfiguration.
+			§ Session Hijacking: Taking over a valid session between a user and a system gives entrance without permission.
+			§ Man-in-the-Middle (MITM) Attacks: By intercepting communication between two parties, sensitive data can be accessed, violating confidentiality principles.
+	
+
+	
+	4. Maintaining Access
+	Once inside, the intruder must maintain a presence on the target machine for further actions such as gathering or monitoring sensitive data. Therefore, backdoors, rootkits, or Trojan horses can be installed at this point to ensure 
+  continued access to the device even after it has been rebooted or patched. Persistence Techniques: Employing malicious programs, establishing concealed user accounts, or exploiting cron jobs.
+		Tools Used:
+			§ Netcat
+			§ Ngrok
+			§ Empire
+		Standard Methods of Maintaining Access:
+			§ Installing Backdoors: Creating permanent ways of accessing the system later, like backdoors or rootkits.
+			§ Creating Hidden User Accounts: Adding unauthorized users with administrative privileges that are hard to discover.
+			§ Tunneling: Employing strategies such as SSH tunneling for secure communication with an infected machine.
+			§ Keystroke Logging: Capturing user’s keystroke entries to acquire confidential details such as passwords or private information.
+			§ Trojan Horses: Integrating applications that look real but permit unlawful entry.
+	
+
+	5. Clearing Track
+	The finale of ethical hacking revolves around ensuring the hacker remains under the radar. This implies wiping logs, concealing files, and manipulating timestamps to eliminate evidence or proof of any attack. 
+  The intention is to ensure that attackers can never be detected or traced via their attack methodology.
+		Tools Used:
+			§ CCleaner
+			§ Stealth Rootkit
+			§ Timestomp
+		Standard Methods For Covering Tracks:
+			§ Log Tampering: Deleting or modifying logs to erase evidence of hacking activities.
+			§ Steganography: Hiding malicious files or data within legitimate files to avoid detection.
+			§ File Timestamp Alteration: Changing the timestamps of modified files to mislead investigators.
+			§ Clearing Command Histories: Deleting or altering shell command histories to prevent detection.
+			§ Encryption: Encrypting communication and files to obscure activities makes forensic analysis more difficult.
+	
+	
