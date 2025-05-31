@@ -1,0 +1,36 @@
+Common Linux Commands
+
+Commands   | Details
+ls         | list contents
+pwd 	     | print working directory
+cd 	       | change directory
+mkdir      | make directory
+rmdir 	   | remove directory
+rm 	       | delete file
+touch      | create file
+cp         | copy files to another path/directory
+mv         | move files to another path/directory
+cat        | print out contents of a file
+grep       | search specific files with a keyword
+sudo       |admin command for non-root user
+whoami     | current logged in user
+chmod      | change permissions for files
+nano       | text editor in linux
+df         | check linux disk usage
+ping       | pings addresses
+traceroute | lists the routers and hops it took
+ifconfig   | lists your ip address
+nslookup 	 | looks up the IP address for website
+crontab -e | editor for job scheduling
+tar 	     | Untar/unzip files usually with -xvf
+ip -a      | check ip address
+ifconfig   | check ip address
+route      | routing table
+
+
+https://explainshell.com/
+useful for explaining Linux command
+
+
+">" - overwrites the current saved data
+">>" - appends the current saved data
