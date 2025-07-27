@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @Christ-ddc
 - 👀 I’m interested in Cybersecurity
 - 🌱 I’m currently learning Pentesting
-- 
 
 <!---
 Christ-ddc/Christ-ddc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
